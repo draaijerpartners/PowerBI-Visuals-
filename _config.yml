@@ -1,6 +1,22 @@
 remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
 - jekyll-remote-theme
-title: [Draaijer Power BI Visuals]
-description: [Power BI Visuals created by Draaijer+Partners B.V.]
 show_downloads: false
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+title: Draaijer Power BI Visuals
+description: Power BI Visuals created by Draaijer+Partners B.V.
+tagline: Power BI Visuals that are versatile and easy to use
+tags:
+  - Power BI
+  - Visuals
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+author:
+  name: Michael Bakker
+  url: http:www.linkedin.com/in/michael-bakker-46792116
+logourl: /img/draaijer_2023.png
+logoalt: The draaijer logo

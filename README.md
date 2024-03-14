@@ -1,4 +1,4 @@
-# PowerBI Visuals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![draaijer](/img/draaijer_2023.png)
+# PowerBI Visuals
 
 Totally self-absorbed and nonsensical statements about our world changing activities here.
 
