@@ -140,7 +140,7 @@ header p{color:#d8d8d8;text-shadow:rgba(0,0,0,0.2) 0 1px 0;font-size:18px;margin
 
 section{width:var(--content-width);padding:24px;margin-top:190px;left:var(--nav-width);position:relative;background:var(--content-background);border-radius:3px;border:1px solid var(--border-color-dark);box-shadow:0px 1px 2px rgba(0,0,0,0.09),inset 0px 0px 2px 2px rgba(255,255,255,0.5),inset 0 0 5px 5px rgba(255,255,255,0.4)}
 
-nav{width:var(--nav-width);position:fixed;top:220px;left:calc(var(--nav-width) - 8);text-align:right}
+nav{width:var(--nav-width);position:fixed;top:220px;left:calc(var(--nav-width) - 8px);text-align:right}
 nav ul{list-style:none;list-style-image:none;font-size:14px;line-height:24px}
 nav ul li{padding:5px 0px;line-height:16px}
 nav ul li.tag-h1{font-size:1.2em}
@@ -149,7 +149,7 @@ nav ul li.tag-h2+.tag-h1{margin-top:10px}
 nav ul a{color:#666}
 nav ul a:hover{color:#999}
 
-footer{width:300px;position:fixed;left:50%;margin-left:calc(var(--content-width)*-1);bottom:20px;text-align:right;line-height:16px}
+footer{width:300px;position:fixed;left:calc(var(--nav-width) - 8px);bottom:20px;text-align:right;line-height:16px}
 
 @media print, screen and (max-width:1060px){
 div.wrapper{width:auto;margin:0}
