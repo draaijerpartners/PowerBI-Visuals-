@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # SVG To CSV Datasource Converter
 <!--
 SvgToFloorMapDataSourceConverter: C:\Users\MB\source\repos\draaijerpartners\DECManager\SvgToFloorMapDataSourceConverter\publish
