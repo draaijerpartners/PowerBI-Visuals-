@@ -1,33 +1,21 @@
-<!doctype html><html lang="en-US"><head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html><html lang="en-US"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 {% seo %}
-<link rel="stylesheet" type="text/css" href="/powerbi-visuals/style.css">
-<script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<link rel="stylesheet" type="text/css" href="/powerbi-visuals/style.css"><script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script><script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 {% include head-custom.html %}
-</head><body>
-<header>
-	<h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-	<p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-</header>
+</head><body><header><h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1><p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p></header>
 <div id="banner">
 	<img id="logo" src="/powerbi-visuals/img/draaijer_2023.png" alt="logo" />
 	<a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
 	<div class="downloads">
 		<span>Visuals:</span>
 		<ul>
-		  <li><a href="/powerbi-visuals/floormap/floormap.md" class="button">Floormap</a></li>
-		  <li><a href="/powerbi-visuals/geomap/geomap.md" class="button">GeoMap</a></li>
-		  <li><a href="/powerbi-visuals/tools/tools.md" class="button">Tools</a></li>
+		  <li><a href="/powerbi-visuals/floormap/floormap.html" class="button">Floormap</a></li>
+		  <li><a href="/powerbi-visuals/geomap/geomap.html" class="button">GeoMap</a></li>
 		</ul>
 	  </div>
 </div>
 <div class="wrapper">
 	<nav><ul></ul></nav>
 	<section>{{ content }}</section>
-	<footer>
-		<p>Site maintained by <a href="http://www.draaijerpartners.nl">{{ site.github.owner_name }}</a></p>
-		<p><small>Hosted on GitHub Pages<br />Theme by <a href="https://twitter.com/mattgraham">mattgraham</a></small></p>
-	</footer>
+	<footer><p>Site maintained by <a href="http://www.draaijerpartners.nl">{{ site.github.owner_name }}</a></p><p><small>Hosted on GitHub Pages<br />Theme based on <a href="https://github.com/pages-themes/leap-day">Leap Day</a></small></p></footer>
 </div></body></html>
