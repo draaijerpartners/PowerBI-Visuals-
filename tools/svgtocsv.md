@@ -10,7 +10,7 @@ SvgToFloorMapDataSourceConverter: C:\Users\MB\source\repos\draaijerpartners\DECM
 
 [Download &#x2b73;](../download/SvgToFloorMapDataSourceConverter.exe)
 
-Click 'Download' to download a command-line tool that is capable of parsing a \*.svg file or a folder containing \*.svg files and converting it into a datasource for the [FloorMap Visual](/floormap/floormap.md).
+Click 'Download' to download a command-line tool that is capable of parsing a \*.svg file or a folder containing \*.svg files and converting it into a datasource for the [FloorMap Visual](../floormap/floormap.md).
 
 &nbsp;
 
