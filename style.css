@@ -129,7 +129,7 @@ header p{color:#d8d8d8;text-shadow:rgba(0,0,0,0.2) 0 1px 0;font-size:18px;margin
 #banner .button{border:1px solid var(--banner-button-border);background:linear-gradient(var(--banner-background-light), var(--banner-background-dark));border-radius:2px;box-shadow:inset 0px 1px 0px rgba(255,255,255,0.4),0px 1px 1px rgba(0,0,0,0.1);background-color:var(--banner-background-light);margin-left:5px;padding:10px 12px;margin-top:6px;line-height:14px;font-size:14px;color:#333;font-weight:bold;display:inline-block;text-align:center}
 #banner .button:hover{background:linear-gradient(var(--banner-background-dark), var(--banner-background-light));background-color:var(--banner-background-light)}
 #banner .fork{position:fixed;left:50%;margin-left:calc((var(--nav-width) + var(--nav-margin))*-1);padding:10px 12px;margin-top:6px;line-height:14px;font-size:14px;background-color:var(--banner-background-light)}
-#banner .downloads{float:right;margin:0 50% 0 0}
+#banner .downloads{float:right;margin:0 44% 0 0}
 #banner .downloads span{float:left;line-height:52px;font-size:90%;color:#9d7f0d;text-transform:uppercase;text-shadow:rgba(255,255,255,0.2) 0 1px 0}
 #banner ul{list-style:none;height:40px;padding:0;float:left;margin-left:10px}
 #banner ul li{display:inline}
