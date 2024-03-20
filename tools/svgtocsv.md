@@ -55,7 +55,7 @@ C:\Path_To_Install_Directory\SvgToFloorMapDataSourceConverter [command] [options
 // create an image url that will result in 'https:\\mydomain.com\floormap\floors\*id*.svg'
 // output results to 'C:\Users\xxx\FloorMapVisual\Datasources'
 
-C:\SvgConverter\SvgToFloorMapDataSourceConverter convert --file "C:\Users\xxx\FloorMapVisual\Resources\test.svg" --out "C:\Users\xxx\FloorMapVisual\Datasources" -url "https:\\mydomain.com\floormap\floors"
+C:\SvgConverter\SvgToFloorMapDataSourceConverter convert --file "C:\Users\xxx\FloorMapVisual\Resources\test.svg" --out "C:\Users\xxx\FloorMapVisual\Datasources" --url "https:\\mydomain.com\floormap\floors"
 
 // convert directory 'C:\Users\xxx\FloorMapVisual\Resources'
 // embed images
