@@ -21,7 +21,7 @@ Click 'Download' to download a command-line tool that is capable of parsing a \*
 Command prompt syntax:
 
 ```c#
-C:\\Path_To_Install_Directory\\SvgToFloorMapDataSourceConverter [command] [options]
+C:\Path_To_Install_Directory\SvgToFloorMapDataSourceConverter [command] [options]
 ```
 
 |Commands||
@@ -52,16 +52,16 @@ C:\\Path_To_Install_Directory\\SvgToFloorMapDataSourceConverter [command] [optio
 
 ```c#
 // convert file 'test.svg'
-// create an image url that will result in 'https:\\\\mydomain.com\\floormap\\floors\\*id*.svg'
-// output results to 'C:\\Users\\xxx\\FloorMapVisual\\Datasources'
+// create an image url that will result in 'https:\\mydomain.com\floormap\floors\*id*.svg'
+// output results to 'C:\Users\xxx\FloorMapVisual\Datasources'
 
-C:\\SvgConverter\\SvgToFloorMapDataSourceConverter convert --file "C:\Users\xxx\FloorMapVisual\Resources\test.svg" --out "C:\Users\xxx\FloorMapVisual\Datasources" -url "https:\\mydomain.com\floormap\floors"
+C:\SvgConverter\SvgToFloorMapDataSourceConverter convert --file "C:\Users\xxx\FloorMapVisual\Resources\test.svg" --out "C:\Users\xxx\FloorMapVisual\Datasources" -url "https:\\mydomain.com\floormap\floors"
 
-// convert directory 'C:\\Users\\xxx\\FloorMapVisual\\Resources'
+// convert directory 'C:\Users\xxx\FloorMapVisual\Resources'
 // embed images
-// output results to same directory ('C:\\Users\\xxx\\FloorMapVisual\\Resources')
+// output results to same directory ('C:\Users\xxx\FloorMapVisual\Resources')
 
-C:\\SvgConverter\\SvgToFloorMapDataSourceConverter convert --dir "C:\\Users\\xxx\\FloorMapVisual\Resources" --embed
+C:\SvgConverter\SvgToFloorMapDataSourceConverter convert --dir "C:\\Users\\xxx\\FloorMapVisual\Resources" --embed
 ```
 
 &nbsp;
