@@ -42,6 +42,7 @@ C:\Path_To_Install_Directory\SvgToFloorMapDataSourceConverter [command] [options
 
 #### Notes
 
+- Be sure to read the [notes on SVG Files](../floormap/floormap.md) to ensure that the file can be parsed without errors
 - The prompt must contain either one **--file** option ór one **--dir** option, not both or multiple **--file** or **--dir** options.
 - When using the **--dir** option, nested directories and non-svg files are ignored.
 - If the **--out** option is omitted, the directory of the source (specified with **--file** or **--dir**) is used.
